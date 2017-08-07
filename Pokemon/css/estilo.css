@@ -1,0 +1,135 @@
+@CHARSET "ISO-8859-1";
+
+body#corpo{
+	background-color: #CFCFCF;
+}
+h1{
+   background-image:url("img/bgred.jpg");
+   background-color:#999999;
+}
+h1#titulo{
+   background-color:#6C7B8B;
+   text-align: center;	
+}
+h2{
+   border-bottom: 2px solid #333333;
+}
+h3{
+   color: #ff0000; 	
+}
+ 
+p{
+  text-indent:20px;
+}
+img{
+    width:180;
+    height:85px;
+}
+.container img{
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    border:2px solid red;
+    margin: 1px;
+}
+.foto img{
+	max-width:450px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+  }
+.monstro img{
+   max-width:210px;
+   width: auto;
+   height: auto;
+   float: left; /*Vai deixar uma foto ao lado da outra*/
+   margin: 0px 110px 50px 47px;
+   padding: 2px;
+   border:1px solid red;	
+}
+figcaption#monstro1 p{
+   position: absolute;
+   top: 351px;
+   left: 77px;
+  }
+figcaption#monstro2 p{
+   position: absolute;
+   top: 385px;
+   right: 815px;
+  }
+figcaption#monstro3 p{
+   position: absolute;
+   top: 390px;
+   right: 470px;
+ }
+figcaption#monstro4 p{
+   position: absolute;
+   top: 650px;
+   left: 110px;
+     
+}
+figcaption#monstro5 p{
+   position: absolute;
+   top: 640px;
+   right: 850px;
+     
+}
+nav#menu{
+   display:block;
+}
+nav#menu ul {
+   list-style:none;
+   text-transform:uppercase;
+   position:absolute;
+   top:-20px;
+   right:250px;
+}
+nav#menu li {
+   display:inline-block;
+   background-color:#dddddd;
+   padding:10px;
+   margin:2px;
+   transition:background-color 1s;
+
+}
+nav#menu li:hover{
+   background-color:#606060;
+
+}
+nav#menu h1{
+   display:none;
+}
+nav#menu a{
+  color:#000000;
+  text-decoration:none;
+}
+nav#menu a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+}
+img#icone{
+  position:absolute;
+  right:130px;
+  top:35px;
+ }
+ input{
+      width: 300px;
+      padding: 3px;
+      font-size:30px;
+      font-family: Arial, Tahoma, helvetica;
+      font-weight: bold;
+      margin-left: 7%;
+ }
+footer#rodape {
+    clear:both;
+    border-top:1px solid #606060;
+}
+footer#rodape p {
+    text-align: center;
+}
+
+  
+  
+ 
+ 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>ProjetoPokemon</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <script language ="javascript" src ="js/funcoes.js"></script>
+  <body id = "corpo">
+    <img src ="img/logo.jpg">
+    <h1 id = "titulo">Pokémons</h1>
+    <figure class ="monstro">
+      <img onmouseover="ligar();" src="img/venusaur.jpg"/>
+      <figcaption id = "monstro1"><p>Venusaur</p></figcaption>
+    </figure>
+    <figure  class ="monstro">
+      <img onmouseover="ligar1();" src="img/charmeleon.jpg" />
+      <figcaption id = "monstro2"><p>Charmeleon</p></figcaption>
+    </figure>
+    <figure  class ="monstro">
+      <img onmouseover="ligar2();" src="img/squirtle.jpg" />
+      <figcaption id = "monstro3"><p>Squirtle</p></figcaption>
+    </figure>
+    <h3>Passe o mouse sobre o seu Pokemón favorito</h3>
+    <img src="img/mao.png"/>
+    <img id="icone" src="img/kemon.jpg"/>
+    <nav id="menu">
+      <h1>Menu Principal</h1>
+      <ul type="disc">
+        <li onmouseover ="mudaFoto('img/home.png')" onmouseout ="mudaFoto('img/pikachu.gif')"><a href="index.html">Home</a></li>
+        <li onmouseover = "mudaFoto('img/imag.jpg')" onmouseout ="mudaFoto('img/pikachu.gif')"><a href="lista.html">Pokémon</a></li>
+      </ul>
+    </nav>
+  <footer id="rodape">
+    <p>Copyright &copy; 2017 - by Dalmo Facuri<br/>
+    <a href="https://pt-br.facebook.com/Pokemon" target="_blank">Facebook</a> | 
+    <a href= "https://twitter.com/pokemon" target="_blank">Twitter</a></p>
+  </footer>
+ </body>
+</html>
